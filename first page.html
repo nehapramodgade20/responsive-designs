@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+<style>
+    .box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box {
+    height: 500px;
+    width: 350px;
+    background-color: #fbf7f7;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 30px #808080;
+    display: inline-block;
+}
+
+
+img {
+    height: 35%;
+    width: 100%;
+    border-radius: 9.5px 9.5px 0 0;
+}
+
+.text1 {
+    text-align: center;
+    color: rgb(101, 99, 99);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.text2 {
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.text3 {
+    color: rgb(66, 66, 216);
+    font-size: 25px;
+    padding-left: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b1 {
+    border: none;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-left: 30px;
+    background-color: #e6e6e6;
+}
+
+.btn {
+    margin-left: 110px;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* Small Devices  */
+@media screen and (max-width: 600px){
+}
+
+ /* Normal Devices  */
+@media screen and (min-width: 601px) and (max-width: 768px){
+    .box-container{
+        justify-content: start;
+    }
+    .box{
+        width: 300px;
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+}
+
+/* Tablets Devices  */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .box-container{
+        justify-content: start;
+    }
+    .box{
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+}
+
+/* Large Devices  */
+@media screen and (min-width: 993px) and (max-width: 1250px){
+    .box-container{
+        justify-content: start;
+    }
+    .box{
+        margin-left: 110px;
+        margin-top: 50px;
+    }}
+    </style>
+    </head>
+<body>
+    <div class="box-container">
+        <div class="box 1">
+            <img src="https://cdn.roadtocode.org/course-headers/icp.jpg?start=9thseptember" alt="thumbnail">
+            <p class="text1">
+                <b>Internship Cohort Program 10.0</b>
+            </p>
+            <p class="text2">Learn Fullstack Development and Become Internship Ready in Just 6 Months 🚀
+                <br><br>
+                <b>Live classes
+                    Starting from 1th august 2024</b>
+                <br><br>
+                6:00 PM - 7:00 PM
+                <span class="b1">
+                    Online
+                </span>
+                <hr>
+                <span class="text3">
+                    <b>₹ 1999/-</b>
+                </span>
+            </p>
+
+            <button class="btn">
+                Know More
+            </button>
+        </div>
+
+        <div class="box 2">
+            <img src="https://cdn.roadtocode.org/course-headers/python.jpg?start=1stmarch" alt="thumbnail">
+            <p class="text1">
+                <b>Python Programming</b>
+            </p>
+            <p class="text2">Learn Python Programming from Scratch and Master the concepts of Python Programming.
+                <br><br>
+                <b>Live classes
+                    Starting from 1st July 2024</b>
+                <br><br>
+                6:00 PM - 7:00 PM
+                <span class="b1">
+                    Online
+                </span>
+                <hr>
+                <span class="text3">
+                    <b>₹ 999/-</b>
+                </span>
+
+
+            </p>
+
+            <button class="btn">
+                Know More
+            </button>
+        </div>
+
+        <div class="box 3">
+            <img src="https://cdn.roadtocode.org/course-headers/mad.jpg?start=1staugust" alt="thumbnail">
+            <p class="text1">
+                <b>Modern Android Development 1.0</b>
+            </p>
+            <p class="text2">Designed for our students of ICP course. Add extra skills to stay ahead in the competition.
+                <br><br>
+                <b>Live classes
+                    Starting from 1st July 2024</b>
+                <br><br>
+                6:00 PM - 7:00 PM
+                <span class="b1">
+                    Online
+                </span>
+                <hr>
+                <span class="text3">
+                    <b>₹ 2999/-</b>
+                </span>
+
+
+            </p>
+
+            <button class="btn">
+                Know More
+        </div>
+    </div>
+    </div>
+    </button>
+</body>
+</html>
